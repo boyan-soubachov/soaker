@@ -1,7 +1,7 @@
-FROM alpine:3.12.0
+FROM alpine:3
 
-ADD main.sh /main.sh
+ADD main.sh main.sh
 
-RUN apk add curl jq
+RUN apk add --no-cache curl jq
 
-ENTRYPOINT [ "main.sh" ]
+ENTRYPOINT [ "./main.sh" ]

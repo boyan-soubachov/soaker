@@ -7,7 +7,7 @@ inputs:
         required: false
         default: 'master'
     soakPeriod:
-        description: 'The soaking period for the last deployment (in minutes)'
+        description: 'The soaking period for the last deployment (in seconds)'
         required: true
 branding:
     icon: 'droplet'
