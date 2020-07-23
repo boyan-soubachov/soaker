@@ -27,4 +27,4 @@ jobs:
       uses: boyan-soubachov/soaker@v0.1
       with:
         branch: master
-        soakPeriod: 600
+        soakPeriod: 10
