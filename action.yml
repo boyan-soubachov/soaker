@@ -1,4 +1,4 @@
-name: Soaker
+name: SimpleSoaker
 author: 'Boyan Soubachov'
 description: 'Blocks deployments if the required soak time has not been reached'
 inputs:
