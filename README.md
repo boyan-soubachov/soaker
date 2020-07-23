@@ -1,4 +1,4 @@
-# soaker
+# SimpleSoaker
 Deployment soaking action for GitHub workflows.
 
 This is a simple tool which blocks all deployments to a specified branch if the previous commit has been made within the
@@ -19,7 +19,7 @@ The branch on which to compare soak-times against. Default `"master"`.
 Make sure `master` has been soaking for at least 7 days.
 
 ```
-uses: boyan-soubachov/soaker@v0.1.1
+uses: boyan-soubachov/soaker@v0.1.3
 with:
   branch: 'master'
   soakPeriod: 604800
