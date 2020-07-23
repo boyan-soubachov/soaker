@@ -19,7 +19,7 @@ The branch on which to compare soak-times against. Default `"master"`.
 Make sure `master` has been soaking for at least 7 days.
 
 ```
-uses: boyan-soubachov/soaker@v0.1
+uses: boyan-soubachov/soaker@v0.1.1
 with:
   branch: 'master'
   soakPeriod: 604800
