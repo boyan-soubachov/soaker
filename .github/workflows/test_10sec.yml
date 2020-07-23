@@ -1,0 +1,19 @@
+name: Test soaking (10 seconds)
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Check soaking
+      id: soaking
+      uses: boyan-soubachov/soaker@v0.1
+      with:
+        branch: master
+        soakPeriod: 10
